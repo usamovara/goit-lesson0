@@ -1,6 +1,4 @@
-body{
-    font-family: "Montserrat", sans-serif;
-}
+
 a{
     text-decoration: none;
 }
@@ -10,6 +8,22 @@ ul{
 .link{
     text-decoration: none;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*------------------- HEADER ---------------*/
+
 .header-logo-italic{
     color: #111;
     font-family: Montserrat;
@@ -36,4 +50,411 @@ ul{
     font-weight: 500;
     line-height: 1.14; /* 114.286% */
     letter-spacing: -0.02em;
+}
+.header-menu-link:hover{
+    color: #FD9222;
+}
+.header-menu-link:focus{
+    color: #FD9222;
+}
+.header-menu-link:active{
+    color: #FD9222;
+}
+/*
+.header-menu-link:hover, .header-menu-link:focus, .header-menu-link:active{
+    color: #FD9222;
+}
+*/
+
+.main {
+}
+.hero {
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.60);
+}
+
+.hero-title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21; /* 121.429% */
+    letter-spacing: -0.03em;
+}
+.hero-buy-btn {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-made-btn {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-down-btn {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.03em;
+}
+
+/*----------------FEATURES----------------*/
+.features {
+    background: #1E1823;
+}
+.features-list {
+}
+.features-list-item {
+}
+.features-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+.features-item-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+
+/*--------------- TASTE ---------------*/
+.taste {
+}
+.taste-title {
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.taste-title span{
+    color: #FD9222;
+}
+.taste-text {
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.28px;
+}
+.taste-list {
+}
+.taste-item-orange {
+    border-radius: 15px;
+    background: #FD9222;
+}
+.taste-item-white {
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background: #FFF;
+}
+.taste-item-black {
+    border-radius: 15px;
+    background: #1E1823;
+}
+.taste-img {
+}
+.taste-subtitle-orange {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.taste-subtitle-white {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.taste-subtitle-black {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+/*------------------ MADE -------------------*/
+
+.made {
+
+}
+.made-title {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+}
+.made-img {
+}
+.made-subtitle {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28px; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+.made-list {
+}
+.made-item {
+}
+
+/*------------------- PRODUCTS ----------------*/
+.products {
+}
+.products-title {
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.16x; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.products-title span{
+    color: #FD9222;
+}
+.products-list {
+}
+.products-item {
+}
+.products-img {
+    background: url(<path-to-image>), lightgray -3.584px -19.709px / 102.928% 117.778% no-repeat;
+}
+.products-subtitle {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.products_button {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.products-text {
+    color: rgba(17, 17, 17, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: -0.02em;
+}
+/*---------------------- TOP SELLERS -------------------------*/
+.topsellers {
+}
+.topsellers-title {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+.topsellers-title span{
+    color: #FD9222;
+}
+.topsellers-list {
+}
+.topsellers-img {
+    border-radius: 15px 15px 0px 0px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.topsellers-subtitle {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+/*------------------------ LOVED ------------------*/
+.loved {
+}
+.loved-title {
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.loved-title span{
+    color: #FD9222;
+}
+.loved-list {
+}
+.loved-item {
+}
+.loved-img {
+}
+.loved-subtitle {
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+}
+.loved-text {
+    color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+.loved-button {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*------------------------ FOOTER -----------------*/
+.footer {
+    background: #1E1823;
+}
+.footer-hero {
+}
+.footer-title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21; /* 121.429% */
+    letter-spacing: -0.02em;
+}
+.footer-title span{
+    color: #FD9222;
+}
+.footer-social {
+}
+.footer-social-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28; /* 128.571% */
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
+.footer-contacts {
+}
+.footer-contacts-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28; /* 128.571% */
+}
+.footer-contacts-adress {
+}
+.footer-contacts-list {
+}
+.footer-contacts-item {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+.footer-contacts-link {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -0.02em;
+}
+.footer-buttons {
+}
+.footer-buttons-item {
+
+}
+.footer-input {
+}
+.footer-input-field {
+    color: rgba(255, 255, 255, 0.30);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+.footer-input-button {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
